@@ -6,7 +6,7 @@
 
 The service provides three different handlers that can be found at these endpoints:
 ```
-/unisearcher/v1/uniinfo/
+/uniinfo/v1/
 /unisearcher/v1/neighbourunis/
 /unisearcher/v1/diag/
 ```
@@ -17,7 +17,7 @@ The service provides three different handlers that can be found at these endpoin
 This endpoint retrieves information about a university given its name. Note that the name of the university may be partial or complete, and that several universities may match a search.
 
 ```
-Path: uniinfo/{:partial_or_complete_university_name}/
+Path: uniinfo/v1/{:partial_or_complete_university_name}/
 ```
 
 The output of this endpoint will look something like this:
